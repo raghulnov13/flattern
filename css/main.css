@@ -166,5 +166,125 @@ body {
 
 }
 .portfolio-flexbox{
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.portfolio-card{
+    width: 30%;
+    margin: 15px;
+}
+.portfolio-card img{
+    width: 100%;
+    height: auto;
+}
+.portfolio-overlay{
+    /* opacity: 0;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s; */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+}
+.client-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.client img{
+    width: 25%;
+}
+.footer-top{
+    color: #b4aca8;
+    font-size: 14px;
+    background: #14100f;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 30px 0;
+    background: black;
+    
+}
+.footer-1 h3{
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-1 p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Muli", sans-serif;
+    color: #b4aca8;
+}
+.footer-content .footer-2 ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.footer-2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-2 ul li i{
+    padding-right: 2px;
+    color: #fd6f41;
+    font-size: 18px;
+    line-height: 1;
+}
+.footer-2 ul li i .ion-chevron-right{
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+}
+.footer-2 ul li a{
+    text-decoration: none;
+    color: #b4aca8;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+.footer-2 h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer-3 form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px 0 0 4px;
+    text-align: left;
+
+}
+.footer-3 h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer-3 p{
+    font-size: 15px;
+    /* margin-top: 0; */
+    /* margin-bottom: 1rem; */
 }
