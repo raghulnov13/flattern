@@ -1,0 +1,170 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #4d4643;
+}
+
+.header {
+    width: 1200px;
+    margin: auto;
+    height: 70px;
+    transition: all 0.5s;
+    background: #fff;
+
+}
+
+.logo {
+    margin-top: 20px;
+
+}
+
+.logo h1 {
+    font-size: 28px;
+    margin: 0;
+    /* padding: 10px 0; */
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.logo h1 a {
+    color: #2b2320;
+    font-family: "Muli", sans-serif;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 15PX 5px
+}
+
+.navigation ul li a:hover {
+    color: #f03c02;
+}
+
+.navigation .active {
+    color: #f03c02;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    font-size: 13px;
+    color: #65534c;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+}
+
+.home {
+    background-image: url("../images/1.jpg");
+
+}
+
+.services-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.services-content {
+    width: 30%;
+    padding: 50px 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid #ebe6e4;
+    height: 200px;
+    position: relative;
+    background: #faf9f8
+}
+
+.services .icon {
+    /* position: absolute;
+    top: -36px;
+    left: calc(50% - 36px); */
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #f03c02;
+}
+
+.services .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.services h4 {
+    font-family: "Muli", sans-serif;
+}
+
+.title a {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.services p {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.portfolio-head ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0 auto 50px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.portfolio-head ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #4d4643;
+    transition: all 0.3s;
+    border-radius: 50px;
+}
+
+.portfolio-head ul li:hover {
+    color: #fff;
+    background: #f03c02;
+}
+
+.portfolio-head ul .active {
+    color: #fff;
+    background: #f03c02;
+
+}
+.portfolio-flexbox{
+    /* display: flex; */
+}
