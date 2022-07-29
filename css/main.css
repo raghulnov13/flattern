@@ -202,6 +202,7 @@ body {
     border: 2px solid #f03c02;
 
 }
+
 .btn-start:hover {
     background-color: #f03c02;
     color: white;
@@ -349,6 +350,7 @@ body {
     margin: 0 auto 50px auto;
     list-style: none;
     text-align: center;
+    
 }
 
 .portfolio-head ul li {
@@ -362,6 +364,7 @@ body {
     color: #4d4643;
     transition: all 0.3s;
     border-radius: 50px;
+    
 }
 
 .portfolio-head ul li:hover {
@@ -623,4 +626,10 @@ span a {
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.footer {
+    color: #b4aca8;
+    font-size: 14px;
+    background: #14100f;
 }
